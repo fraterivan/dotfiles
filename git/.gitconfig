@@ -1,0 +1,14 @@
+[init]
+	defaultBranch = main
+
+[core]
+	editor = nvim
+
+[pull]
+	rebase = false
+
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	lg = log --oneline --graph --decorate
