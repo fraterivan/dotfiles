@@ -1,5 +1,4 @@
-format = """$os$username$hostname$directory$git_branch$git_status\n❯ """
-right_format = """$cmd_duration$time$battery"""
+format = """$os$username$hostname$directory$git_branch$git_status$fill$cmd_duration$time$battery\n❯ """
 
 [os]
 format = '[$symbol](bold white) '
@@ -45,6 +44,9 @@ modified = '[󰛿 modified=${count}](yellow) '
 staged = '[󰐗 staged=${count}](green) '
 renamed = '[󱍸 renamed=${count}](yellow) '
 deleted = '[󰍶 deleted=${count}](red) '
+
+[fill]
+symbol = ' '
 
 [cmd_duration]
 show_milliseconds = true
