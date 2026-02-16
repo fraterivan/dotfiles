@@ -5,7 +5,6 @@
 # Font
 # font-family = JetBrains Mono
 # font-size = 14
-font-family-emoji = Apple Color Emoji
 
 # Theme (run `ghostty +list-themes` to see options)
 # theme = Catppuccin Mocha
